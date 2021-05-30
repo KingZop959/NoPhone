@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/background15"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:src="@drawable/photo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:scaleType="fitCenter"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:adjustViewBounds="true"
+        android:onClick="click1"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="开始修炼"
+        android:textSize="30dp"
+        android:textColor="#FF03DAC5"
+        android:background="@drawable/button_style2"
+        android:onClick="begin"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/button_style2"
+        android:text="开始挑战"
+        android:textSize="30dp"
+        android:textColor="#FF03DAC5"
+        android:onClick="beginbattle"/>
+    </LinearLayout>
+
+</LinearLayout>
